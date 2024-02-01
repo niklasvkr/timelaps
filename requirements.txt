@@ -1,0 +1,22 @@
+opencv-python
+numpy
+pillow
+
+
+
+import sys
+import threading
+import numpy as np
+import time
+import cv2
+import threading
+import os
+from PIL import Image, ImageChops
+from functools import reduce
+import configparser
+import json
+from datetime import datetime
+
+
+from ids_peak_ipl import ids_peak_ipl
+from ids_peak import ids_peak as peak
